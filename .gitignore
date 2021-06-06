@@ -1,0 +1,8 @@
+build/*
+bin/*
+
+*.code-workspace
+*.vscode
+
+# generated files
+src/utils/paths.h

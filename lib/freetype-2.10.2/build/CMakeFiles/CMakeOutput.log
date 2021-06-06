@@ -1,0 +1,237 @@
+The system is: Linux - 5.10.12-171.current - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/3.19.2/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_48572/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_48572.dir/build.make CMakeFiles/cmTC_48572.dir/build
+gmake[1]: Entering directory '/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-solus-linux
+Configured with: ../configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-cet --enable-default-ssp --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-gcc-major-version-only --with-bugurl=https://dev.getsol.us/ --with-arch_32=i686 --enable-linker-build-id --with-linker-hash-style=gnu --with-gnu-ld --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (Solus) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-solus-linux/10/cc1 -quiet -v /usr/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccMJMJJ5.s
+GNU C17 (Solus) version 10.2.0 (x86_64-solus-linux)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib64/gcc/x86_64-solus-linux/10/../../../../x86_64-solus-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib64/gcc/x86_64-solus-linux/10/include
+ /usr/local/include
+ /usr/lib64/gcc/x86_64-solus-linux/10/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (Solus) version 10.2.0 (x86_64-solus-linux)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 9bf9d55b1be5a0429818b59113553706
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o /tmp/ccMJMJJ5.s
+GNU assembler version 2.35.1 (x86_64-solus-linux) using BFD version (GNU Binutils) 2.35.1
+COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/
+LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_48572
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48572.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o -o cmTC_48572 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/10/lto-wrapper
+Target: x86_64-solus-linux
+Configured with: ../configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-cet --enable-default-ssp --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-gcc-major-version-only --with-bugurl=https://dev.getsol.us/ --with-arch_32=i686 --enable-linker-build-id --with-linker-hash-style=gnu --with-gnu-ld --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (Solus) 
+COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/
+LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_48572' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-solus-linux/10/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/10/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cclhT9eu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_48572 /usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/10/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/10 -L/usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/10/../../.. CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib64/gcc/x86_64-solus-linux/10/crtend.o /usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_48572' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib64/gcc/x86_64-solus-linux/10/include]
+    add: [/usr/local/include]
+    add: [/usr/lib64/gcc/x86_64-solus-linux/10/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib64/gcc/x86_64-solus-linux/10/include] ==> [/usr/lib64/gcc/x86_64-solus-linux/10/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib64/gcc/x86_64-solus-linux/10/include-fixed] ==> [/usr/lib64/gcc/x86_64-solus-linux/10/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib64/gcc/x86_64-solus-linux/10/include;/usr/local/include;/usr/lib64/gcc/x86_64-solus-linux/10/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_48572/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_48572.dir/build.make CMakeFiles/cmTC_48572.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.19/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: x86_64-solus-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-cet --enable-default-ssp --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-gcc-major-version-only --with-bugurl=https://dev.getsol.us/ --with-arch_32=i686 --enable-linker-build-id --with-linker-hash-style=gnu --with-gnu-ld --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (Solus) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib64/gcc/x86_64-solus-linux/10/cc1 -quiet -v /usr/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccMJMJJ5.s]
+  ignore line: [GNU C17 (Solus) version 10.2.0 (x86_64-solus-linux)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib64/gcc/x86_64-solus-linux/10/../../../../x86_64-solus-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib64/gcc/x86_64-solus-linux/10/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib64/gcc/x86_64-solus-linux/10/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Solus) version 10.2.0 (x86_64-solus-linux)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 9bf9d55b1be5a0429818b59113553706]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o /tmp/ccMJMJJ5.s]
+  ignore line: [GNU assembler version 2.35.1 (x86_64-solus-linux) using BFD version (GNU Binutils) 2.35.1]
+  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_48572]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48572.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o -o cmTC_48572 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/10/lto-wrapper]
+  ignore line: [Target: x86_64-solus-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --with-pkgversion=Solus --libdir=/usr/lib64 --libexecdir=/usr/lib64 --with-system-zlib --enable-cet --enable-default-ssp --enable-shared --enable-threads=posix --enable-gnu-indirect-function --enable-__cxa_atexit --enable-plugin --enable-gold --enable-ld=default --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --enable-lto --with-gcc-major-version-only --with-bugurl=https://dev.getsol.us/ --with-arch_32=i686 --enable-linker-build-id --with-linker-hash-style=gnu --with-gnu-ld --build=x86_64-solus-linux --target=x86_64-solus-linux --enable-languages=c,c++,fortran]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (Solus) ]
+  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/10/:/usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_48572' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-solus-linux/10/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/10/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cclhT9eu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_48572 /usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/10/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/10 -L/usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/10/../../.. CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib64/gcc/x86_64-solus-linux/10/crtend.o /usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64/crtn.o]
+    arg [/usr/lib64/gcc/x86_64-solus-linux/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-solus-linux/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cclhT9eu.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/usr/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_48572] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-solus-linux/10/crtbegin.o] ==> ignore
+    arg [-L/usr/lib64/gcc/x86_64-solus-linux/10] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/10]
+    arg [-L/usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib64/gcc/x86_64-solus-linux/10/../../..] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/10/../../..]
+    arg [CMakeFiles/cmTC_48572.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-solus-linux/10/crtend.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/10] ==> [/usr/lib64/gcc/x86_64-solus-linux/10]
+  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/10/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib64/gcc/x86_64-solus-linux/10/../../..] ==> [/usr/lib64]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib64/gcc/x86_64-solus-linux/10;/usr/lib64;/lib64]
+  implicit fwks: []
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c6faa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c6faa.dir/build.make CMakeFiles/cmTC_c6faa.dir/build
+gmake[1]: Entering directory '/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6faa.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c6faa.dir/CheckIncludeFile.c.o -c /home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c6faa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6faa.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_c6faa.dir/CheckIncludeFile.c.o -o cmTC_c6faa 
+gmake[1]: Leaving directory '/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d7355/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d7355.dir/build.make CMakeFiles/cmTC_d7355.dir/build
+gmake[1]: Entering directory '/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7355.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d7355.dir/CheckIncludeFile.c.o -c /home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d7355
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7355.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_d7355.dir/CheckIncludeFile.c.o -o cmTC_d7355 
+gmake[1]: Leaving directory '/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_88d03/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_88d03.dir/build.make CMakeFiles/cmTC_88d03.dir/build
+gmake[1]: Entering directory '/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88d03.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_88d03.dir/CheckIncludeFile.c.o -c /home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_88d03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88d03.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_88d03.dir/CheckIncludeFile.c.o -o cmTC_88d03 
+gmake[1]: Leaving directory '/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/CMakeTmp'
+
+
+

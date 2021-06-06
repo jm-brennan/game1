@@ -1,0 +1,9 @@
+/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/install/strip.dir
+/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/install/local.dir
+/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/edit_cache.dir
+/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/package_source.dir
+/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/install.dir
+/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/list_install_components.dir
+/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/rebuild_cache.dir
+/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/package.dir
+/home/jacob/src/game1/lib/freetype-2.10.2/build/CMakeFiles/freetype.dir
